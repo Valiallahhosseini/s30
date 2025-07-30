@@ -10,6 +10,7 @@ import NotFound from "@/pages/NotFound";
 const App = () => {
   return (
     <>
+      <p>Hi</p>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<LoginHomeWork />} />
